@@ -1,0 +1,11 @@
+.calculator__card {
+  height: 40rem;
+  width: 30rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: rgb(95, 94, 94);
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}

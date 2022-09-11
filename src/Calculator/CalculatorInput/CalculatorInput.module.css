@@ -1,0 +1,22 @@
+.input-box {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #ccc;
+}
+
+.input {
+  height: 3rem;
+  width: 90%;
+  border: none;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 1.7rem;
+  
+}
+
+.input:focus {
+  outline: none;
+}

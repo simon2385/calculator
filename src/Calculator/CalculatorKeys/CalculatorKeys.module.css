@@ -1,0 +1,73 @@
+.keys-container {
+  height: max-content;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  
+}
+
+.keys-container--numbers {
+  width: 60%;
+  height: 100%;
+  border-right: 2px solid #ccc;
+}
+
+.keys-container--numbers-one-to-nine {
+  width: 100%;
+  height: 75%;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.keys-container--zero-and-point {
+  width: 100%;
+  height: 25%;
+  display: grid;
+  grid-template-rows: 1, 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.key-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-number {
+  height: 4rem;
+  width: 4rem;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+.key-doublewidth {
+  height: 4rem;
+  width: 8rem;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+
+.keys-container--actions {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.keys--actions {
+  height: 75%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.keys--actions-equal {
+  display: grid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
